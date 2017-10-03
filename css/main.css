@@ -2,7 +2,53 @@
     font-family: Roboto; /* Имя шрифта */
     src: url(./fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
 }
-body{
-    font-family: Roboto;
-    background-color: #607D8B;
+/*body{*/
+    /*font-family: Roboto;*/
+    /*background-color: #607D8B;*/
+/*}*/
+/*.swiper-container {*/
+    /*width: 600px;*/
+    /*height: 300px;*/
+/*}*/
+
+body {
+    background: #455A64;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #607D8B;
+    width: 60%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* Material design panel shadows */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.swiper-slide:nth-child(2n) {
+    width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 20%;
 }
